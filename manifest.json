@@ -6,8 +6,6 @@
     "permissions": [
       "storage",
       "activeTab",
-      "https://api.openweathermap.org/",
-      "https://www.googleapis.com/",
       "geolocation"
     ],
     "action": {
@@ -16,7 +14,12 @@
     "options_ui": {
       "page": "options.html",
       "open_in_tab": true
-    }
+    },
+
+    "host_permissions": [
+        "*://api.openweathermap.org/*",
+        "*://www.googleapis.com/*"
+      ]
 }
   
   
