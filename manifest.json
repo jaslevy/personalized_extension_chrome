@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "My Weather & ToDo Extension",
+    "version": "1.0",
+    "description": "A Chrome extension for weather updates and a to-do list.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "https://api.openweathermap.org/",
+      "https://www.googleapis.com/",
+      "geolocation"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": true
+    }
+}
+  
+  
